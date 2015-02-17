@@ -2,6 +2,11 @@
 Changelog for package nao_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.4 (2015-02-17)
+------------------
+* configure sonars via namespace and params
+* Contributors: Karsten Knese
+
 0.5.3 (2014-12-14)
 ------------------
 * add bottom camera to nao_full.launch
