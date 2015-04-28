@@ -1,3 +1,29 @@
+## nao_robot (hydro) - 0.5.7-0
+
+The packages in the `nao_robot` repository were released into the `hydro` distro by running `/usr/bin/bloom-release --track hydro --rosdistro hydro nao_robot` on `Tue, 28 Apr 2015 11:01:06 -0000`
+
+These packages were released:
+- `nao_apps`
+- `nao_bringup`
+- `nao_description`
+- `nao_pose`
+- `nao_robot`
+
+Version of package(s) in repository `nao_robot`:
+- upstream repository: https://github.com/ros-naoqi/nao_robot.git
+- release repository: https://github.com/ros-naoqi/nao_robot-release.git
+- rosdistro version: `0.5.6-0`
+- old version: `0.5.6-0`
+- new version: `0.5.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## nao_robot (indigo) - 0.5.6-0
 
 The packages in the `nao_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release nao_robot --track indigo --rosdistro indigo` on `Fri, 27 Feb 2015 18:28:17 -0000`
