@@ -2,6 +2,14 @@
 Changelog for package nao_apps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.7 (2015-03-27)
+------------------
+* properly install Python scripts
+  This fixes `#19 <https://github.com/ros-naoqi/nao_robot/issues/19>`_
+* no need for custom file
+* enable goto initial pose to start walking
+* Contributors: Karsten Knese, Vincent Rabaud
+
 0.5.6 (2015-02-27)
 ------------------
 * Cleanup and rename launch files
