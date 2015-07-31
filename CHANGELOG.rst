@@ -2,6 +2,11 @@
 Changelog for package nao_robot
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.5.10 (2015-07-31)
+-------------------
+* remove nao_pose
+* Contributors: Karsten Knese
+
 0.5.9 (2015-07-30)
 ------------------
 
