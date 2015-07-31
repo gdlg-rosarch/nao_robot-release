@@ -1,0 +1,12 @@
+Source: ros-jade-nao-bringup
+Section: misc
+Priority: extra
+Maintainer: Séverin Lemaignan <severin.lemaignan@epfl.ch>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://www.ros.org/wiki/nao_robot
+Standards-Version: 3.9.2
+
+Package: ros-jade-nao-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-diagnostic-aggregator, ros-jade-nao-description, ros-jade-naoqi-driver, ros-jade-naoqi-driver-py, ros-jade-naoqi-pose, ros-jade-naoqi-sensors-py, ros-jade-robot-state-publisher
+Description: Launch files and scripts needed to bring ROS interfaces for Nao up into a running state.
