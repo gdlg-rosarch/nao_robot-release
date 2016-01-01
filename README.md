@@ -1,3 +1,28 @@
+## nao_robot (jade) - 0.5.12-0
+
+The packages in the `nao_robot` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade nao_robot` on `Fri, 01 Jan 2016 22:03:16 -0000`
+
+These packages were released:
+- `nao_apps`
+- `nao_bringup`
+- `nao_description`
+- `nao_robot`
+
+Version of package(s) in repository `nao_robot`:
+- upstream repository: https://github.com/ros-naoqi/nao_robot.git
+- release repository: https://github.com/ros-naoqi/nao_robot-release.git
+- rosdistro version: `0.5.11-0`
+- old version: `0.5.11-0`
+- new version: `0.5.12-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.38`
+
+
 ## nao_robot (indigo) - 0.5.12-0
 
 The packages in the `nao_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo nao_robot` on `Fri, 01 Jan 2016 22:00:13 -0000`
