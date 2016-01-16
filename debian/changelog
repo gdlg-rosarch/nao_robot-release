@@ -1,0 +1,106 @@
+ros-indigo-nao-apps (0.5.13-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 15 Jan 2016 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.12-0saucy) saucy; urgency=high
+
+  * change from naoqi_driver.cfg to naoqi_driver_py.cfg
+  * Contributors: Kanae Kochigami
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 31 Dec 2015 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.11-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Mon, 10 Aug 2015 22:00:00 -0000
+
+ros-indigo-nao-apps (0.5.10-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 30 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-apps (0.5.9-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 29 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-apps (0.5.8-0saucy) saucy; urgency=high
+
+  * transfer to naoqi_py
+  * use naoqi_pose instead of nao_pose
+  * Contributors: Karsten Knese, Kei Okada
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 29 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-apps (0.5.7-0saucy) saucy; urgency=high
+
+  * properly install Python scripts
+    This fixes #19 <https://github.com/ros-naoqi/nao_robot/issues/19>
+  * no need for custom file
+  * enable goto initial pose to start walking
+  * Contributors: Karsten Knese, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 26 Mar 2015 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.6-0saucy) saucy; urgency=high
+
+  * Cleanup and rename launch files
+  * Contributors: Karsten Knese
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 26 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.5-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Mon, 16 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.4-0saucy) saucy; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Mon, 16 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.3-0saucy) saucy; urgency=high
+
+  * check naoqi version and exit if not supported
+  * add nodes/nao_alife.py launch/nao_alife.launch
+  * add .launch files
+  * Contributors: Kei Okada
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sat, 13 Dec 2014 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.2-0saucy) saucy; urgency=high
+
+  * remove trailing spaces
+  * add nao_speech.launch
+  * Contributors: Kanae Kochigami, Mikael ARGUEDAS
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 03 Dec 2014 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.1-0saucy) saucy; urgency=high
+
+  * Merge pull request #2 <https://github.com/ros-naoqi/nao_robot/issues/2> from k-okada/encode_utf8
+    vocabulary must encode to utf8
+  * bugfix: missing reconfigure in naoqi_driver
+  * vocabulary must encode to utf8
+  * bugfix: python imports
+  * Contributors: Karsten Knese, Kei Okada, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 12 Nov 2014 23:00:00 -0000
+
+ros-indigo-nao-apps (0.5.0-0saucy) saucy; urgency=high
+
+  * cleanups
+  * transfer nao_robot apps
+  * merge from nao_driver into nao_apps
+  * Contributors: Karsten Knese, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 05 Nov 2014 23:00:00 -0000
+
+
