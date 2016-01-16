@@ -1,0 +1,142 @@
+ros-indigo-nao-bringup (0.5.13-0trusty) trusty; urgency=high
+
+
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Fri, 15 Jan 2016 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.12-0trusty) trusty; urgency=high
+
+  * launch/nao_full.launch : support nao_port in launch/naoqi_driver.launch https://github.com/ros-naoqi/naoqi_driver/pull/52
+  * Contributors: Kei Okada
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 31 Dec 2015 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.11-0trusty) trusty; urgency=high
+
+  * introduce namespace for nao_bringup
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Mon, 10 Aug 2015 22:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.10-0trusty) trusty; urgency=high
+
+
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 30 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.9-0trusty) trusty; urgency=high
+
+  * fix correct package dep
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 29 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.8-0trusty) trusty; urgency=high
+
+  * rename naoqi_driver
+  * transfer to naoqi_py
+  * use naoqi_pose instead of nao_pose
+  * Contributors: Karsten Knese, Kei Okada
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 29 Jul 2015 22:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.7-0trusty) trusty; urgency=high
+
+  * remove legacy sonar node
+  * set nao walker by default
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 26 Mar 2015 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.6-0trusty) trusty; urgency=high
+
+  * Cleanup and rename launch files
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Thu, 26 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.5-0trusty) trusty; urgency=high
+
+
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Mon, 16 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.4-0trusty) trusty; urgency=high
+
+  * configure sonars via namespace and params
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Mon, 16 Feb 2015 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.3-0trusty) trusty; urgency=high
+
+  * add bottom camera to nao_full.launch
+  * Contributors: Kanae Kochigami
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Sat, 13 Dec 2014 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.2-0trusty) trusty; urgency=high
+
+  * remove trailing spaces
+  * Added naoqi_sensors dependency
+  * deleted extra space
+  * added nao_ip and nao_port as args to work
+  * Add microphone launcher in nao_full
+  * Contributors: Arguedas Mikael, Mikael ARGUEDAS, kochigami, sambrose
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 03 Dec 2014 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.1-0trusty) trusty; urgency=high
+
+  * bugfix: fixing python imports for nao_robot
+  * bugfix: python imports
+  * Contributors: Karsten Knese
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 12 Nov 2014 23:00:00 -0000
+
+ros-indigo-nao-bringup (0.5.0-0trusty) trusty; urgency=high
+
+  * update on rviz config
+  * moved pose manager into nao_robot
+  * transfer nao_robot
+  * 0.4.1
+  * update changelogs
+  * get the accent right in Séverin's name
+  * 0.4.0
+  * update changelogs
+  * update nao_bringup launchfiles to use new urdf
+  * 0.3.0
+  * update changelogs
+  * update maintainers
+    Armin, thank you for all your work, in ROS, Octomap and NAO.
+    Good luck out of the university !
+  * "0.2.3"
+  * Changelogs
+  * {ahornung->ros-nao}
+  * {ahornung->ros-nao}
+  * Add missing nao_sim.launch to nao_bringup install
+  * "0.2.2"
+  * changelog
+  * Replace accented character in package.xml files, seems to cause
+    problems with bloom
+  * "0.2.1"
+  * Changelogs
+  * "0.2.0"
+  * Adjust version number mismatch
+  * Adding (edited) catkin-generated changelogs
+  * Adding bugtracker and repo URLs to package manifests
+  * nao_bringup: include nao_description launch files
+  * Adding force_python parameter to nao_driver.launch to switch
+    between C++ and python nodes for nao_sensors (Issue #11 <https://github.com/ros-naoqi/nao_robot/issues/11>)
+    Parameter will be passed on from higher-level launch files (nao_bringup).
+    Default node is C++, unless a simulation launch file is started.
+  * Add nao_sim launch file to bringup simulated nao
+  * [nao_bringup] Include pose_manager in nao.launch
+  * Include nao_driver/launch/nao_driver.launch instead of copying its content
+  * XML comments do not work well in launch files...
+  * Added nao_bringup: provide general launch file for ROS on Nao
+  * Contributors: Armin Hornung, Karsten Knese, Séverin Lemaignan, Vincent Rabaud, margueda
+
+ -- Séverin Lemaignan <severin.lemaignan@epfl.ch>  Wed, 05 Nov 2014 23:00:00 -0000
+
+
