@@ -1,0 +1,112 @@
+ros-kinetic-nao-apps (0.5.14-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sat, 23 Jan 2016 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.13-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sat, 16 Jan 2016 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.12-0xenial) xenial; urgency=high
+
+  * change from naoqi_driver.cfg to naoqi_driver_py.cfg
+  * Contributors: Kanae Kochigami
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 01 Jan 2016 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.11-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 11 Aug 2015 07:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.10-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 31 Jul 2015 07:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.9-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 30 Jul 2015 07:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.8-0xenial) xenial; urgency=high
+
+  * transfer to naoqi_py
+  * use naoqi_pose instead of nao_pose
+  * Contributors: Karsten Knese, Kei Okada
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 30 Jul 2015 07:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.7-0xenial) xenial; urgency=high
+
+  * properly install Python scripts
+    This fixes #19 <https://github.com/ros-naoqi/nao_robot/issues/19>
+  * no need for custom file
+  * enable goto initial pose to start walking
+  * Contributors: Karsten Knese, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 27 Mar 2015 07:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.6-0xenial) xenial; urgency=high
+
+  * Cleanup and rename launch files
+  * Contributors: Karsten Knese
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 27 Feb 2015 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.5-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 17 Feb 2015 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.4-0xenial) xenial; urgency=high
+
+
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Tue, 17 Feb 2015 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.3-0xenial) xenial; urgency=high
+
+  * check naoqi version and exit if not supported
+  * add nodes/nao_alife.py launch/nao_alife.launch
+  * add .launch files
+  * Contributors: Kei Okada
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Sun, 14 Dec 2014 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.2-0xenial) xenial; urgency=high
+
+  * remove trailing spaces
+  * add nao_speech.launch
+  * Contributors: Kanae Kochigami, Mikael ARGUEDAS
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 04 Dec 2014 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.1-0xenial) xenial; urgency=high
+
+  * Merge pull request #2 <https://github.com/ros-naoqi/nao_robot/issues/2> from k-okada/encode_utf8
+    vocabulary must encode to utf8
+  * bugfix: missing reconfigure in naoqi_driver
+  * vocabulary must encode to utf8
+  * bugfix: python imports
+  * Contributors: Karsten Knese, Kei Okada, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 13 Nov 2014 08:00:00 -0000
+
+ros-kinetic-nao-apps (0.5.0-0xenial) xenial; urgency=high
+
+  * cleanups
+  * transfer nao_robot apps
+  * merge from nao_driver into nao_apps
+  * Contributors: Karsten Knese, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Thu, 06 Nov 2014 08:00:00 -0000
+
+
