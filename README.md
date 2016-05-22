@@ -1,3 +1,30 @@
+## nao_robot (kinetic) - 0.5.14-0
+
+The packages in the `nao_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic --new-track nao_robot` on `Sun, 22 May 2016 06:53:23 -0000`
+
+These packages were released:
+- `nao_apps`
+- `nao_bringup`
+- `nao_description`
+- `nao_robot`
+
+Version of package(s) in repository `nao_robot`:
+
+- upstream repository: https://github.com/ros-naoqi/nao_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.14-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## nao_robot (jade) - 0.5.13-0
 
 The packages in the `nao_robot` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade nao_robot` on `Sat, 16 Jan 2016 14:13:41 -0000`
