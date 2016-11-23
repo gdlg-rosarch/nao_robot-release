@@ -1,0 +1,12 @@
+Source: ros-jade-nao-apps
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-nao-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-actionlib, ros-jade-diagnostic-msgs, ros-jade-dynamic-reconfigure, ros-jade-geometry-msgs, ros-jade-humanoid-nav-msgs, ros-jade-naoqi-bridge, ros-jade-naoqi-bridge-msgs, ros-jade-naoqi-driver, ros-jade-naoqi-driver-py, ros-jade-naoqi-pose, ros-jade-rospy, ros-jade-std-msgs, ros-jade-std-srvs
+Description: Applications for NAO using the NAOqi API
