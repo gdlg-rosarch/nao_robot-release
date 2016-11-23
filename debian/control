@@ -1,0 +1,12 @@
+Source: ros-indigo-nao-apps
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-trajectory-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-nao-apps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-diagnostic-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-humanoid-nav-msgs, ros-indigo-naoqi-bridge, ros-indigo-naoqi-bridge-msgs, ros-indigo-naoqi-driver, ros-indigo-naoqi-driver-py, ros-indigo-naoqi-pose, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-std-srvs
+Description: Applications for NAO using the NAOqi API
